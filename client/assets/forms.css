@@ -34,4 +34,6 @@ body{
     position:fixed;
     border: #dddfe2ff solid 2px;      
 }
-
+form input{
+     margin: auto;
+}
