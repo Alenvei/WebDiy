@@ -1,11 +1,18 @@
 @import "forms.css";
+@import "profile.css";
+@import "customTags.css";
 
 /*Header nav bar */
 
+html body{
+    margin:0 auto;
+    background-color: #e9eeedff;
+}
+
 header{
-    background-image: linear-gradient(to  right, #8feab3ff, #8edef6ff);
+    background-image: linear-gradient(to  right, #52df8aff, #51ccf1ff);
     top:0;
-    position: absolute;
+    
     width: 100%;    
     line-height: 4em;
     text-align: center;
