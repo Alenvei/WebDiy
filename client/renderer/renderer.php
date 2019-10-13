@@ -1,6 +1,8 @@
 <?php
-namespace View;
-class Renderer{
+
+namespace Client\Renderer;
+
+class Render{
     protected static $client = "./client/";
 
     /**

@@ -1,9 +1,11 @@
 <?php include "./partials/header.php"; ?>
 
 <?php 
-    require './client/renderer/renderer.php';
-    use View\Renderer;
-    Renderer::view('forms.singup');
+    require_once __DIR__ . '/vendor/autoload.php';
+    
+    use Client\Renderer\Render;
+
+    Render::view('forms.login');
 ?> 
     
 </body>
