@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=591" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">    
-    <link rel="stylesheet" href="client/assets/main.css ?timesptam =<?php echo time()?>">
+    <link rel="stylesheet" href="client/assets/main.css ">
     
     
 </head>

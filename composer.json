@@ -12,7 +12,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Client\\":"client/"
+            "Client\\": "client/",
+            "Api\\": "api/"
         }
     }
 }

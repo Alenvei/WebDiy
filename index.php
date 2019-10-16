@@ -1,11 +1,11 @@
 <?php include "./partials/header.php"; ?>
 
 <?php 
-    require_once __DIR__ . '/vendor/autoload.php';
+    require_once __DIR__ . '/vendor/autoload.php';    
     
-    use Client\Renderer\Render;
-
-    Render::view('forms.login');
+    use Api\Route\Route;
+    Route::get('/profile');
+    
 ?> 
     
 </body>
