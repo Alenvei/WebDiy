@@ -5,7 +5,7 @@
 
         public static function get($url){
            if($_SERVER['REQUEST_URI']===$url){
-                Render::view('profile');
+               
            };
         }
         public static function post(){

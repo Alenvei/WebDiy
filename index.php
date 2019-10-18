@@ -4,7 +4,8 @@
     require_once __DIR__ . '/vendor/autoload.php';    
     
     use Api\Route\Route;
-    Route::get('/profile');
+    use Client\Renderer\Render;
+    Render::view('profile');
     
 ?> 
     
