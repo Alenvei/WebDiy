@@ -1,12 +1,15 @@
 .wallper{
     width: 100%;  
-    padding-bottom: 20px;    
+    padding-bottom: 5px;  
+      
 }   
 
 .wallper img {
     width: 100%;
-    height: 20vw; 
-    min-height: 10rem; 
+    height: 17vw; 
+    min-height: 18rem;
+    border-radius: 3px;
+    
 }   
 .webPage{
     width: 50vw;
@@ -14,7 +17,7 @@
     margin: auto; 
     
 }
-.contentHolder , .tabController{
+.contentHolder , .tabController, .wallper{
     display: inline-block; 
     vertical-align: text-top; 
 }
@@ -24,17 +27,15 @@
     
 }
 .contentHolder{
-    width: 35vw;
-    height: 200px;
+    width: 30vw;
     min-width: 480px;    
      
 }
 .profile{
     width: 100px;
     height: auto;
-    margin: auto;   
-    background-color: white;
-    
+    margin: auto;
+    background-color: white;    
     padding: 5px;
     border-radius: 50%;
     border: #dddfe2ff solid 2px; 
@@ -43,7 +44,9 @@
     max-width: 100%;    
     height: 100px;
     border-radius: 50%;
-    vertical-align: middle;    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;     
 }
 .btnHolder{    
     width: 100%;    
@@ -53,8 +56,7 @@
     text-decoration: none;    
 }
 .btnHolder a{
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
  .link-btn{
     width: 97%;     
@@ -70,8 +72,8 @@
     vertical-align: middle; 
     margin-left: 5%;   
 }
-icon{
-    vertical-align: middle;  
+.link-btn icon{
+    
     width:32px;
     height:33px;
 }
@@ -105,8 +107,7 @@ icon{
     .btnHolder {        
         font-size: 14px;   
     }
-    icon{
-       
+    .link-btn icon{       
         width:20px;
         height:20px;
     }   
@@ -126,7 +127,7 @@ icon{
 }
 @media only screen and (max-width: 800px) {    
     .webPage{
-        width: 50vw;
+        width: 100%;
         margin: 0;
         min-width: 0;   
     }
@@ -137,11 +138,11 @@ icon{
         width: 100vw;
     }
     .tabController{
-        width: 100vw;        
+        width: 100%;        
         background-color: white;
     }
     .contentHolder {
-        width: 100vw;
+        width: 100%;
         margin: 0;
         min-width: 0;        
     }
@@ -149,11 +150,9 @@ icon{
         border:none;
         width: 140px;
         position: relative;
-        padding: 8px;
-        margin-top:-80px;
+        padding: 8px;        
         margin-bottom: 20px;
-        z-index: 1;
-        
+        z-index: 1;        
     }
     .profile img{
         height: 140px;
@@ -163,8 +162,7 @@ icon{
         background-color: white;                     
     }
     .btnHolder a{        
-        display: inline-block; 
-        
+        display: inline-block;         
     }
     .btnHolder a:first-child{        
         margin-left :11.5vw;  
@@ -178,7 +176,7 @@ icon{
         width :25vw;           
         padding: 0px;
     }
-    icon{
+    .link-btn icon{
         vertical-align: middle;  
         width:32px;
         height:33px; 

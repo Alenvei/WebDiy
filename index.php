@@ -5,7 +5,7 @@
     
     use Api\Route\Route;
     use Client\Renderer\Render;
-    Render::view('profile');
+    Render::view('forms.singup');
     
 ?> 
     

@@ -1,6 +1,7 @@
  /* custom HTML tags default setings*/
  icon {
-    display:inline-block;   
+    display:inline-block; 
+    vertical-align: middle;    
     padding:0;
     border:0;   
 }

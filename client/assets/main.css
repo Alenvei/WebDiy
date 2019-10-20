@@ -1,5 +1,6 @@
 @import "forms.css";
 @import "profile.css";
+@import "post.css";
 @import "customTags.css";
 
 /*Header nav bar */
@@ -11,12 +12,12 @@ html body{
 
 header{
     background-image: linear-gradient(to  right, #52df8aff, #51ccf1ff);
-    top:0;
-    
+    top:0;    
     width: 100%;    
     line-height: 4em;
     text-align: center;
     font-family: sans-serif;
+    margin-bottom: 10px;
 
 }
 
